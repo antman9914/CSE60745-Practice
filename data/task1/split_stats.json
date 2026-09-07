@@ -1,0 +1,41 @@
+{
+  "n_nodes": 7624,
+  "n_edges_full_graph": 27806,
+  "split_sizes": {
+    "train": 19464,
+    "val": 4171,
+    "test": 4171
+  },
+  "observable_graph": {
+    "n_edges": 19464,
+    "n_isolated_nodes": 666,
+    "frac_isolated_nodes": 0.0874,
+    "mean_degree": 5.106,
+    "median_degree": 3,
+    "max_degree": 153,
+    "n_connected_components": 734
+  },
+  "queries": {
+    "train": {
+      "n_queries": 19464,
+      "n_rows": 116784,
+      "candidates_per_query": 6,
+      "n_cold_start_queries": 0,
+      "frac_cold_start_queries": 0.0
+    },
+    "val": {
+      "n_queries": 4171,
+      "n_rows": 87591,
+      "candidates_per_query": 21,
+      "n_cold_start_queries": 213,
+      "frac_cold_start_queries": 0.0511
+    },
+    "test": {
+      "n_queries": 4171,
+      "n_rows": 87591,
+      "candidates_per_query": 21,
+      "n_cold_start_queries": 216,
+      "frac_cold_start_queries": 0.0518
+    }
+  }
+}

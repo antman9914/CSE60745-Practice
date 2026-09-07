@@ -1,0 +1,17 @@
+# ======================================================================================
+# INSTRUCTOR MATERIAL - must never reach the student-facing repository.
+# These files contain the full answer table, the three deliberate traps in the data
+# design, and the expected numbers for every variant. Do not remove these lines.
+# ======================================================================================
+INSTRUCTOR_NOTES.md
+reference_solution/
+
+# Raw SNAP download. Students read data/processed/ only; keeping the 6.5 MB archive and
+# its node-feature JSON out of the repository also keeps the node features out of reach.
+data/raw/
+
+# Housekeeping
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
